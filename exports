@@ -1,0 +1,15 @@
+# PATHS
+export MANPATH="/usr/local/man:$MANPATH"
+export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
+
+# Wine
+export WINEPREFIX=/home/lava/.wine
+export WINEARCH=win64
+
+# Misc
+export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
+export USE_CCACHE=1
+export CCACHE_DIR=~/.ccache
+export JACK_SERER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4096M"
+export MOZ_ENABLE_WAYLAND=1
+#export SSLKEYLOGFILE=~/.ssl-key.log

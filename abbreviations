@@ -1,0 +1,35 @@
+abbr e="$EDITOR"
+abbr eh="nvim"
+abbr eatr="nvim ~/.config/zsh/abbreviations"
+abbr evi="nvim ~/.config/nvim/init.vim"
+abbr rs="source ~/.config/zsh/profile"
+
+abbr ll="ls -al"
+abbr q="exit"
+
+abbr peach="ssh lava@peach"
+abbr bunny="ssh bunny@peach"
+
+abbr fa="grep -Inr"
+abbr fai="grep -Iinr"
+
+abbr g1="xgamma -gamma 1"
+abbr g3="xgamma -gamma 1.3"
+
+abbr bat="echo 'battery' | doas tee -a /sys/class/drm/card1/device/power_dpm_state"
+abbr bal="echo 'balanced' | doas tee -a /sys/class/drm/card1/device/power_dpm_state"
+abbr sclk="doas setclock 50000 70000 800"
+
+abbr sysu="doas systemctl start"
+abbr sysd="doas systemctl stop"
+abbr syss="doas systemctl status"
+abbr usysu="systemctl --user start"
+abbr usysd="systemctl --user stop"
+abbr usyss="systemctl --user status"
+abbr j="doas journalctl -b"
+abbr jf="doas journalctl -f"
+
+abbr n="nix"
+abbr ne="doas nvim /etc/nixos/configuration.nix"
+abbr nr="doas nixos-rebuild switch"
+abbr nf="nix-flakes"

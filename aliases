@@ -1,0 +1,2 @@
+alias nano="echo 'stop.'; sleep 1; nvim"
+alias ls="ls --color=tty -v"

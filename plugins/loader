@@ -1,0 +1,17 @@
+PLUGINDIR="$ZDOTDIR/plugins"
+
+# Settings
+
+## Autosuggest
+ZSH_AUTOSUGGEST_STRATEGY=(completion)
+ZSH_AUTOSUGGEST_USE_ASYNC=true
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=40
+
+source "$PLUGINDIR/zsh-defer/zsh-defer.plugin.zsh"
+
+zsh-defer source "$PLUGINDIR/zsh-abbr/zsh-abbr.zsh"
+zsh-defer source "$ZDOTDIR/abbr"
+zsh-defer source "$PLUGINDIR/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh"
+zsh-defer source "$PLUGINDIR/zsh-autosuggestions/zsh-autosuggestions.zsh"
+zsh-defer source "$PLUGINDIR/zsh-history-substring-search/zsh-history-substring-search.zsh"
+#zsh-defer source "$PLUGINDIR/zsh-autocomplete/zsh-autocomplete.plugin.zsh"
